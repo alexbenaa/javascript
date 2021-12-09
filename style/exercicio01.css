@@ -2,24 +2,30 @@ header h1{
       text-align: center;
 }
 #container{
-      width: 800px;
-      height: 800px;
-      background-color: burlywood;
+      width: 500px;
+      height: 500px;
+      background-color: rgb(186, 185, 185);
       margin: auto;
       border-radius: 30px;
 }
 img{
-      width: 400px;
       border-radius: 80%;
-      position:absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+
 }
 body{
-      background-color: gray;
+      background-color: rgb(101, 101, 235);
 }
 
 footer{
       text-align: center;
+      font-size: 30px;
+}
+
+div{
+      text-align: center;
+      padding: 30px;
+}
+
+#hours {
+      font-size: 30px;
 }

@@ -1,186 +1,239 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Curso de JavaScript</title>
-  </head>
-  <body style="background-image: url(/assets/background.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
-    <div style="font-size: 20px;">
-      <nav class="nav" style="position: fixed; width: 100%; height: auto;">
-            <a class="nav-link" href="#moduloA" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;" id="ButtonA" onmouseenter="entrar()" onmouseout="saiu()">Modulo A</a>
-            <a class="nav-link" href="#moduloB" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo B</a>
-            <a class="nav-link" href="#moduloC" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo C</a>
-            <a class="nav-link" href="#moduloD" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo D</a>
-            <a class="nav-link" href="#moduloE" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo E</a>
-            <a class="nav-link" href="#moduloF" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo F</a>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Curso de JavaScript</title>
+</head>
+
+<body
+  style="background-image: url(/assets/background.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+  <div style="font-size: 20px;">
+    <header>
+      <nav class="nav" style="position: fixed; width: 100%; height: 40px; background-attachment: fixed; display:inline-block;">
+        <a class="nav-link" href="#moduloA"
+          style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;"
+          id="ButtonA" onmouseenter="entrar()" onmouseout="saiu()">Modulo A</a>
+        <a class="nav-link" href="#moduloB"
+          style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo
+          B</a>
+        <a class="nav-link" href="#moduloC"
+          style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo
+          C</a>
+        <a class="nav-link" href="#moduloD"
+          style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo
+          D</a>
+        <a class="nav-link" href="#moduloE"
+          style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo
+          E</a>
+        <a class="nav-link" href="#moduloF"
+          style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 800;">Modulo
+          F</a>
       </nav>
-    </div>
-    <div class="container" style="padding: 50px;">
-      <div class="row">
-        <div class="col-xs-1-12">
-          <div class="card">
-            <div class="card-body" id="moduloA">
-              <h3 class="card-title">Modulo A</h3>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" style="width: 200px; float: right;">
-              <p class="card-text">
-                <h4>Aula 02</h4>
-                <b style="color: red;">Linha temporal do JS</b><br>
-                <strong>1970 Criação da Arpanet</strong>  ->  Criado por conta da Guerra Fria <br>
-                <b>Tim Berns Lee</b>  ->  Criador do HTML, HTTP e a WWW em 1993. <br>
-                <b>1997 - ecma</b>  ->  NETSCAP padroniza o JavaScript ou ECMAScript, que é a versão padrão. <br>
-                <b>2008 - Google</b>  -> Nascimento do Google Chorme, sistema de navegação que implementou fortemente o V8 em seu JavaScript. <br>
-                <b>2010 - NodeJS</b>  ->  É a saida do JS dos navegadores e utilizada nos navegadores. <br><br><hr style="height: 10px; color: yellow;"><br>
-                <h4>Aula 03</h4>
-                <img src="https://st.depositphotos.com/1144687/1286/i/600/depositphotos_12861258-stock-photo-climbs-ladder.jpg" style="width: 300px; float: right;">
-                <b style="color: red;">Primeiros passos</b>
-                <ol>
-                  <li>Veja os vídeos</li>
-                  <li>Treine e codifique, teste e crie projetos</li>
-                  <li>Leia muitas documentações, livros e articos</li>
-                  <li>Crie anotações</li>
-                  <li>Interagir com pessoas</li>
-                  <li>Criar projetos e utilizar programações</li>
-                </ol>
-                <b>Onde procurar ?</b><br>
-                <a href="https://developer.mozilla.org/pt-BR/"><b>Mozilla Developers</b></a> <br> <hr style="color: black; height: 10px;">
-              </p>
-              <h4>Aula 04</h4>
-              <p class="card-text">
-                <b style="color: red; font-weight: bolder;">Criado os primeiros scripts</b> <br>
-                <b>window.alert</b> ->  Vai enviar um alerta para a tela. <br>
-                <b>window.prompt</b>  ->  Vai receber um tipo de string da tela, parecido com o alerta. <br>
-                <b></b>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-1-12" style="margin-top: 50px;">
-          <div class="card">
-            <div class="card-body" id="moduloB">
-              <h3 class="card-title">Modulo B</h3>
-              <h4>Aula 05</h4>
-              <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHJlOMD45BJyg/company-logo_200_200/0/1626114016116?e=2159024400&v=beta&t=-iVaZ-QkSebPEmexCQuUdyhmFVmg5u4Cav1wONp5E3s" style="width: 200px; float:right">
-              <p class="card-text">
-                <b style="color: red; font-weight: bolder;">Varáveis e Tipos Primitivos</b> <br>
-                <b style="color: green; font-weight: 900;">Não utilizar nomes de variaveis que: comecem com um número e não utilizar espaços.</b> <br>
-                <b>Recomendado utilizar $ para variaveis e pode também, utilizar letras e simbulos</b>
-                <b>$teste_de_variavel ou $TesteDeVariavel</b> ->  Essas são os 2 modelos mais recomendados<br><br>
-
-                <b>Dicas:</b><br>
-                Variaveis são case sensitive <br>
-                Escolha nomes coerentes <br>
-                Não seja programador Alfabeto ou programador contador. <br><br>
-
-                <b>Tipos de Variaiveis:</b><br>
-                Number -> Todos os números, tanto inteiros quanto float. <br>
-                String -> Tipo de variável texto. <br>
-                Boolean -> True e False. <br>
-                Null -> Variável do tipo nulo, não tem valor agregado.  <br>
-                Undefined -> Variável indefinida.  <br>
-                Object -> Tipo de Objeto, pois o JS é POO. <br>
-                Function -> Tipo de função, muito parecido com o Python. <br>
-                Array ->  Tipo de variável vetorial. <br>
-              </p>
-              <hr style="height: 10px; color: red;">
-              <h4>Aula 06</h4>
-              <img src="https://http2.mlstatic.com/D_NQ_NP_764736-MLB46002010033_052021-O.jpg" style="width: 200px; float: right;">
-              <p class="card-text">
-                <b style="color: red; font-weight: 700;">Tratamento de Dados</b> <br>
-                <b>var $Nome = window.prompt('Qual o seu nome ?')</b> ->  Recebe o promt dentro da var $Nome  <br>
-                <b>Number(n)</b>  ->  Converte uma string em um número, desta maneira o Java determina automáticamente o formato do número. <br>
-                <b>Number.parseInt</b>  ->  Converte uma string para um númeor do tipo inteiro. <br>
-                <b>String(n)</b>  ->  Converte um número em uma instring. <br>
-                <b>var $Nome = 'Alex Rodrigues Bená' <br> var $Curso = 'JavaScript'<br> Forma correta de concatenar: `Sr. ${$Nome} está fazendo o curso de : ${$Curso}`</b>
-                <b>var.length</b> -> Conta o número de caracteres de uma variável. <br>
-                <b>var.UpperCase()</b>  ->  Função para transformar o texto em caixa alta. <br>
-                <b>var.LowerCase</b>  ->  Função para transformar o texto e caixa baixa. <br>
-                <b>document.wrilte()</b>  ->  Irá escrever no body, o que você desejar, pode utilizar também, TAGs de HTML. <br>
-                <b>Exemplo:</b><br>
-                document.write('Olá ${$Nome.toUpperCase()} você tem ${$Anos} anos e está fazendo o curso ${$Curso}')
-              </p> <hr style="height: 10px; color: green;">
-              <h4>Aula 07</h4>
-              <img src="https://1.bp.blogspot.com/-li-xoXjYA0o/WwsX6AqT4SI/AAAAAAAADpY/NFN5GkHjj2Uif6qGTP7a15uLl_KW4WRggCLcBGAs/s400/Sem%2Bt%25C3%25ADtulo2.png" style="height: 200px; float: right;">
-              <p class="card-text">
-                <b style="color: red; font-weight: 700;">Operadores do JavaScript</b>
-                <b style="color: green;">Aritiméticos: </b> <br>
-                <b>+</b>  ->  Soma ou Concatenação. <br>
-                <b>-</b>  ->  Subtração. <br>
-                <b>*</b>  ->  Multiplica. <br>
-                <b>/</b>  ->  Divisão. <br>
-                <b>%</b>  ->  Resto.  <br>
-                <b>**</b> ->  Elevação. <br>
-              </p><hr style="color: blue; height: 10px;">
-              <h4>Aula 08</h4>
-              <img src="https://image.slidesharecdn.com/poo-08-operadoresdojava-120712114554-phpapp01/95/poo-07-operadores-do-java-27-728.jpg?cb=1491693697" style="width:300px; float: right;">
-              <p class="card-text">
-                <b style="color: red; font-weight: 800;">Operadores lógicos parte 2.</b> <br>
-                <b>!</b>  ->  Operador de negação.  Operador unário<br>
-                <b>&&</b> ->  Operador de conjunção. Os 2 fatos tem que satisfazer a evidência. <br>
-                <b>||</b> ->  Operador de Disjunção. Ou um ou outro sendo verdadeiro, satisfaz a evidência. <br>
-                <b style="color: green; font: 15px 'sans-serif' bolder">A sequência que o algoritimo irá executar os operasores são: Aritiméticos, Comparação e depois os lógicos.</b>
-              </p>
-            </div>
+    </header>
+  </div>
+  <div class="container" style="padding: 50px;">
+    <div class="row">
+      <div class="col-xs-1-12">
+        <div class="card">
+          <div class="card-body" id="moduloA">
+            <h3 class="card-title">Modulo A</h3>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+              style="width: 200px; float: right;">
+            <p class="card-text">
+              <h4>Aula 02</h4>
+              <b style="color: red;">Linha temporal do JS</b><br>
+              <strong>1970 Criação da Arpanet</strong> -> Criado por conta da Guerra Fria <br>
+              <b>Tim Berns Lee</b> -> Criador do HTML, HTTP e a WWW em 1993. <br>
+              <b>1997 - ecma</b> -> NETSCAP padroniza o JavaScript ou ECMAScript, que é a versão padrão. <br>
+              <b>2008 - Google</b> -> Nascimento do Google Chorme, sistema de navegação que implementou fortemente o V8
+              em seu JavaScript. <br>
+              <b>2010 - NodeJS</b> -> É a saida do JS dos navegadores e utilizada nos navegadores. <br><br>
+              <hr style="height: 10px; color: yellow;"><br>
+              <h4>Aula 03</h4>
+              <img
+                src="https://st.depositphotos.com/1144687/1286/i/600/depositphotos_12861258-stock-photo-climbs-ladder.jpg"
+                style="width: 300px; float: right;">
+              <b style="color: red;">Primeiros passos</b>
+              <ol>
+                <li>Veja os vídeos</li>
+                <li>Treine e codifique, teste e crie projetos</li>
+                <li>Leia muitas documentações, livros e articos</li>
+                <li>Crie anotações</li>
+                <li>Interagir com pessoas</li>
+                <li>Criar projetos e utilizar programações</li>
+              </ol>
+              <b>Onde procurar ?</b><br>
+              <a href="https://developer.mozilla.org/pt-BR/"><b>Mozilla Developers</b></a> <br>
+              <hr style="color: black; height: 10px;">
+            </p>
+            <h4>Aula 04</h4>
+            <p class="card-text">
+              <b style="color: red; font-weight: bolder;">Criado os primeiros scripts</b> <br>
+              <b>window.alert</b> -> Vai enviar um alerta para a tela. <br>
+              <b>window.prompt</b> -> Vai receber um tipo de string da tela, parecido com o alerta. <br>
+              <b></b>
+            </p>
           </div>
         </div>
       </div>
       <div class="col-xs-1-12" style="margin-top: 50px;">
         <div class="card">
-          <div class="card-body" id="moduloC">
-            <h3>Modulo C</h3>
-            <h4>Aula 09</h4>
-            <a href="https://media.geeksforgeeks.org/wp-content/uploads/20210908120846/DOM.png"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210908120846/DOM.png" style="width: 200px; float: right;"></a>
+          <div class="card-body" id="moduloB">
+            <h3 class="card-title">Modulo B</h3>
+            <h4>Aula 05</h4>
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C4E0BAQHJlOMD45BJyg/company-logo_200_200/0/1626114016116?e=2159024400&v=beta&t=-iVaZ-QkSebPEmexCQuUdyhmFVmg5u4Cav1wONp5E3s"
+              style="width: 200px; float:right">
             <p class="card-text">
-              <b style="color: red; font-weight: 800;">Introdução ao DOM</b> <br>
-              <b style="font-weight: 900;">O que é o DOM?</b><br>
-              <b>R: Por ele eu consigo acessar qualquer elemento dentro da minha página. Todos os elementos são herdados conforme a estrutura do HTML, cada div cada container.</b>
-              <b>window.document.write('Olá MUndo');</b>  ->  Vai escrever 'Olá Mundo ' na minha página. <br>
-              <b>window.document.write(window.document.URL)</b> Escreve no HTML a URL. <br>
-              <b style="font-weight: 800; color: red;">5 Seleções que o DOM faz:</b>
-              <div id="ul">  
-                <ul>
-                  <li>Marca -> getElementsByTagName()</li> 
-                  <li>ID -> getElementById()</li>
-                  <li>Nome -> getElementsByName</li>
-                  <li>Classe -> getElementsByClassName()</li>
-                  <li>Seletor -> querySelector('div#id' ou 'div.class')</li>
-                </ul>
-              </div>  
-            </p> <hr style="height: 10px; color: black;">
-            <h4>Aula 10</h4>
-            <img src="https://media0.giphy.com/media/l0HlQXlQ3nHyLMvte/200w.webp?cid=ecf05e47cjrpwlgraqy3al0wpii27p71xxy4oq0bt5duy54k&rid=200w.webp&ct=g" style="width: 200px; float: right;">
+              <b style="color: red; font-weight: bolder;">Varáveis e Tipos Primitivos</b> <br>
+              <b style="color: green; font-weight: 900;">Não utilizar nomes de variaveis que: comecem com um número e
+                não utilizar espaços.</b> <br>
+              <b>Recomendado utilizar $ para variaveis e pode também, utilizar letras e simbulos</b>
+              <b>$teste_de_variavel ou $TesteDeVariavel</b> -> Essas são os 2 modelos mais recomendados<br><br>
+
+              <b>Dicas:</b><br>
+              Variaveis são case sensitive <br>
+              Escolha nomes coerentes <br>
+              Não seja programador Alfabeto ou programador contador. <br><br>
+
+              <b>Tipos de Variaiveis:</b><br>
+              Number -> Todos os números, tanto inteiros quanto float. <br>
+              String -> Tipo de variável texto. <br>
+              Boolean -> True e False. <br>
+              Null -> Variável do tipo nulo, não tem valor agregado. <br>
+              Undefined -> Variável indefinida. <br>
+              Object -> Tipo de Objeto, pois o JS é POO. <br>
+              Function -> Tipo de função, muito parecido com o Python. <br>
+              Array -> Tipo de variável vetorial. <br>
+            </p>
+            <hr style="height: 10px; color: red;">
+            <h4>Aula 06</h4>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_764736-MLB46002010033_052021-O.jpg"
+              style="width: 200px; float: right;">
             <p class="card-text">
-              <b id="Aula10">Eventos com JS.</b> <br>
-              <b style="font-weight: 800;">Eventos utilizando o Mouse:</b><br>
-              <ul class="ul">
-                <li>mouseenter  ->  Quando o mouse está dentro da div</li>
-                <li>mousemove ->  Quando o Mouse está se movendo dentro da div</li>
-                <li>mousedown ->  quando o Mouse é pressionado</li>
-                <li>mouseup ->  quando o mouse é solto depois de pressionado</li>
-                <li>click ->  apenas um click</li>
-                <li>mouseout  ->  Quando o mouse é retirado da div</li>
-              </ul>
-              <a href="https://developer.mozilla.org/pt-BR/docs/Web/Events" style="margin-top: 10px;"><h4 id="Event1">Events Reference</h4></a>
-              <br><hr style="height: 10px; color: blue;">
-              <p>
-                  <b style="color: red;">Funções</b> <br>
-                  <b>funcition ação(){Eventos}</b>  ->  Desta maneira é possível criar os eventos dentro do bloco que no JS utiliza-se {}. <br>
-                  <b>id="id_do_elemento" onmouseenter="ação_da_function"</b>  ->  estrutura de exemplo no HTML. <br>
-                  <b>function ação_da_function{var.style.color = 'black'}</b> ->  estrutura de exemplo no JS, para mudar o texto para preto. <br>
-                  <b style="color: red; font-weight: 800;">Estrutura do Listen</b><br>
-                  <b style="font-weight: 800;">Vai fazer com que seu Script colete os events automaticamente.</b><br>
-                  <b>Exemplos:</b><br>
-                  <b>var $var window.document.getElementById('id_item')</b> ->  Declarando a variavel, coletando o Id do item. <br>
-                  <b>$var.addEventListener('onmouseenter', entrar())</b>  ->  Desta maneira vai ouvir o que for passado no item.
-                  <b>$var.addEventListener('onmouseout', sair())</b>  -> Desta outra maneira, quando ocorrer a ação onmouseout ele executará a função. <br>
-              </p>
+              <b style="color: red; font-weight: 700;">Tratamento de Dados</b> <br>
+              <b>var $Nome = window.prompt('Qual o seu nome ?')</b> -> Recebe o promt dentro da var $Nome <br>
+              <b>Number(n)</b> -> Converte uma string em um número, desta maneira o Java determina automáticamente o
+              formato do número. <br>
+              <b>Number.parseInt</b> -> Converte uma string para um númeor do tipo inteiro. <br>
+              <b>String(n)</b> -> Converte um número em uma instring. <br>
+              <b>var $Nome = 'Alex Rodrigues Bená' <br> var $Curso = 'JavaScript'<br> Forma correta de concatenar: `Sr.
+                ${$Nome} está fazendo o curso de : ${$Curso}`</b>
+              <b>var.length</b> -> Conta o número de caracteres de uma variável. <br>
+              <b>var.UpperCase()</b> -> Função para transformar o texto em caixa alta. <br>
+              <b>var.LowerCase</b> -> Função para transformar o texto e caixa baixa. <br>
+              <b>document.wrilte()</b> -> Irá escrever no body, o que você desejar, pode utilizar também, TAGs de HTML.
+              <br>
+              <b>Exemplo:</b><br>
+              document.write('Olá ${$Nome.toUpperCase()} você tem ${$Anos} anos e está fazendo o curso ${$Curso}')
+            </p>
+            <hr style="height: 10px; color: green;">
+            <h4>Aula 07</h4>
+            <img
+              src="https://1.bp.blogspot.com/-li-xoXjYA0o/WwsX6AqT4SI/AAAAAAAADpY/NFN5GkHjj2Uif6qGTP7a15uLl_KW4WRggCLcBGAs/s400/Sem%2Bt%25C3%25ADtulo2.png"
+              style="height: 200px; float: right;">
+            <p class="card-text">
+              <b style="color: red; font-weight: 700;">Operadores do JavaScript</b>
+              <b style="color: green;">Aritiméticos: </b> <br>
+              <b>+</b> -> Soma ou Concatenação. <br>
+              <b>-</b> -> Subtração. <br>
+              <b>*</b> -> Multiplica. <br>
+              <b>/</b> -> Divisão. <br>
+              <b>%</b> -> Resto. <br>
+              <b>**</b> -> Elevação. <br>
+            </p>
+            <hr style="color: blue; height: 10px;">
+            <h4>Aula 08</h4>
+            <img
+              src="https://image.slidesharecdn.com/poo-08-operadoresdojava-120712114554-phpapp01/95/poo-07-operadores-do-java-27-728.jpg?cb=1491693697"
+              style="width:300px; float: right;">
+            <p class="card-text">
+              <b style="color: red; font-weight: 800;">Operadores lógicos parte 2.</b> <br>
+              <b>!</b> -> Operador de negação. Operador unário<br>
+              <b>&&</b> -> Operador de conjunção. Os 2 fatos tem que satisfazer a evidência. <br>
+              <b>||</b> -> Operador de Disjunção. Ou um ou outro sendo verdadeiro, satisfaz a evidência. <br>
+              <b style="color: green; font: 15px 'sans-serif' bolder">A sequência que o algoritimo irá executar os
+                operasores são: Aritiméticos, Comparação e depois os lógicos.</b>
+            </p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="col-xs-1-12" style="margin-top: 50px;">
+      <div class="card">
+        <div class="card-body" id="moduloC">
+          <h3>Modulo C</h3>
+          <h4>Aula 09</h4>
+          <a href="https://media.geeksforgeeks.org/wp-content/uploads/20210908120846/DOM.png"><img
+              src="https://media.geeksforgeeks.org/wp-content/uploads/20210908120846/DOM.png"
+              style="width: 200px; float: right;"></a>
+          <p class="card-text">
+            <b style="color: red; font-weight: 800;">Introdução ao DOM</b> <br>
+            <b style="font-weight: 900;">O que é o DOM?</b><br>
+            <b>R: Por ele eu consigo acessar qualquer elemento dentro da minha página. Todos os elementos são herdados
+              conforme a estrutura do HTML, cada div cada container.</b>
+            <b>window.document.write('Olá MUndo');</b> -> Vai escrever 'Olá Mundo ' na minha página. <br>
+            <b>window.document.write(window.document.URL)</b> Escreve no HTML a URL. <br>
+            <b style="font-weight: 800; color: red;">5 Seleções que o DOM faz:</b>
+            <div id="ul">
+              <ul>
+                <li>Marca -> getElementsByTagName()</li>
+                <li>ID -> getElementById()</li>
+                <li>Nome -> getElementsByName</li>
+                <li>Classe -> getElementsByClassName()</li>
+                <li>Seletor -> querySelector('div#id' ou 'div.class')</li>
+              </ul>
+            </div>
+          </p>
+          <hr style="height: 10px; color: black;">
+          <h4>Aula 10</h4>
+          <img
+            src="https://media0.giphy.com/media/l0HlQXlQ3nHyLMvte/200w.webp?cid=ecf05e47cjrpwlgraqy3al0wpii27p71xxy4oq0bt5duy54k&rid=200w.webp&ct=g"
+            style="width: 200px; float: right;">
+          <p class="card-text">
+            <b id="Aula10">Eventos com JS.</b> <br>
+            <b style="font-weight: 800;">Eventos utilizando o Mouse:</b><br>
+            <ul class="ul">
+              <li>mouseenter -> Quando o mouse está dentro da div</li>
+              <li>mousemove -> Quando o Mouse está se movendo dentro da div</li>
+              <li>mousedown -> quando o Mouse é pressionado</li>
+              <li>mouseup -> quando o mouse é solto depois de pressionado</li>
+              <li>click -> apenas um click</li>
+              <li>mouseout -> Quando o mouse é retirado da div</li>
+            </ul>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/Events" style="margin-top: 10px;">
+              <h4 id="Event1">Events Reference</h4>
+            </a>
+            <br>
+            <hr style="height: 10px; color: blue;">
+            <p>
+              <b style="color: red;">Funções</b> <br>
+              <b>funcition ação(){Eventos}</b> -> Desta maneira é possível criar os eventos dentro do bloco que no JS
+              utiliza-se {}. <br>
+              <b>id="id_do_elemento" onmouseenter="ação_da_function"</b> -> estrutura de exemplo no HTML. <br>
+              <b>function ação_da_function{var.style.color = 'black'}</b> -> estrutura de exemplo no JS, para mudar o
+              texto para preto. <br>
+              <b style="color: red; font-weight: 800;">Estrutura do Listen</b><br>
+              <b style="font-weight: 800;">Vai fazer com que seu Script colete os events automaticamente.</b><br>
+              <b>Exemplos:</b><br>
+              <b>var $var window.document.getElementById('id_item')</b> -> Declarando a variavel, coletando o Id do
+              item. <br>
+              <b>$var.addEventListener('onmouseenter', entrar())</b> -> Desta maneira vai ouvir o que for passado no
+              item.
+              <b>$var.addEventListener('onmouseout', sair())</b> -> Desta outra maneira, quando ocorrer a ação
+              onmouseout ele executará a função. <br>
+            </p>
+        </div>
+      </div>
     </div>
     <div class="col-xs-1-12" style="margin-top: 50px;">
       <div class="card">
@@ -189,27 +242,38 @@
           <h4>Aula 11</h4>
           <p class="card-text">
             <b style="color: red;">Condições (Parte 1)</b>
-            <h5 style="color: green;">Programa para calcular se levou multa. <br><strong>* Limite máximo da via Urbana é de 60 Km/h!</strong></h5>
+            <h5 style="color: green;">Programa para calcular se levou multa. <br><strong>* Limite máximo da via Urbana é
+                de 60 Km/h!</strong></h5>
             <img src="https://media.giphy.com/media/3ov9jWu7BuHufyLs7m/giphy.gif" style="width: 400px; float: right;">
-           Informe a velocidade : <input type="number" name="speed" id="Speed" style="width: 100px;" placeholder='Ex.; "50"'> KM/h
-           <input type="button" value="calcular" onclick="calcular()" id="ButtonSpeed">
-           <div id="result"></div>
+            Informe a velocidade : <input type="number" name="speed" id="Speed" style="width: 100px;"
+              placeholder='Ex.; "50"'> KM/h
+            <input type="button" value="calcular" onclick="calcular()" id="ButtonSpeed">
+            <div id="result"></div>
           </p>
           <hr style="height: 10px; color: black;">
           <h4>Aula 12</h4>
           <p class="card-text">
             <b style="color: red;">Condições (Parte 2)</b>
             <b style="font-weight: 800;">Estrutura de um Switch:</b><br>
-            <b>switch(expressão){ <hr> case valor1 <br>break <hr> case valo2<br>break <hr> case valor3 <br>break <hr> default <br>break <hr>}</b>
-            <br><b style="color: red; font-weight: 800;">O valor da expressão será direcionado para o determinado case e depois de executar o bloco do caseX ele encerra a estrutura de verificação. Switch é uma estrutura com utilizações pré definidas pois, ele somente aceita números inteiros e strings.</b> <br>
+            <b>switch(expressão){
+              <hr> case valor1 <br>break
+              <hr> case valo2<br>break
+              <hr> case valor3 <br>break
+              <hr> default <br>break
+              <hr>}</b>
+            <br><b style="color: red; font-weight: 800;">O valor da expressão será direcionado para o determinado case e
+              depois de executar o bloco do caseX ele encerra a estrutura de verificação. Switch é uma estrutura com
+              utilizações pré definidas pois, ele somente aceita números inteiros e strings.</b> <br>
           </p>
           <h4>Exercicios JS pt.1</h4>
           <p class="card-text">
-            <b style="color: red;"></b>
+            <b style="color: red;"> <a href="/exercicio01/index.html" style="text-decoration: none;">Link do Exercicio
+                01</a></b>
           </p>
           <h4>Exercicios JS pt.2</h4>
           <p class="card-text">
-            <b style="color: red;"></b>
+            <b style="color: red;"> <a href="/exercicio02/index.html" style="text-decoration: none;">Link do Exercicio
+                02</a></b>
           </p>
         </div>
       </div>
@@ -218,7 +282,53 @@
       <div class="card">
         <div class="card-body" id="moduloE">
           <h3>Modulo E</h3>
-          <h4>Aula Y</h4>
+          <h4>Aula 13</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Repetição com teste no ínicio:</b> <br>
+            <b>while(condição){ bloco }</b> -> Nesta estrutura a verificação da condição está no inicio do código. <br>
+            <b>Exemplo: </b> <br>
+            <!-- let é a maneira correta de declar uma VARIÁVEL -->
+            let Structure = 1 <br>
+            <!-- while é  o enquanto -->
+            while (Structure <= 6){ <br>
+              <!-- Faz um print console -->
+              console.log(`Passo ${Structure}`)<br>
+              <!-- Incrementa +1 na Variavel-->
+              Structure++ <br>
+              }
+          </p>
+          <h4>Aula 14</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Repetição com teste no Final:</b> <br>
+            <b>Uma estrutura de repetição, pode ser verificada também, no final do bloco. utilizando "do" para iniciar a
+              execução do bloco e a cada final de execução, passará por uma verificação</b> <br>
+            <b style:"color: black ; font-weight: 800">Exemplo: </b><br>
+            <!--Declaração da Var  -->
+            let Structure = 1<br>
+            <!-- do é faça -->
+            do{<br>
+            <!-- Faz um print console -->
+            console.log(`Passo ${Structure}`)<br>
+            <!-- Incrementa +1 na Variavel-->
+            Structure++ <br>
+            } while (Structure <= 6) <br> <br>
+              <b style:"color:red; font-weight: 800;"> ** Está estrutura irá se repetir até a variavel "Structure" se
+                tornar 6</b>
+
+          </p>
+          <h4>Aula 15</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Repetição com controle:</b>
+            <b>O famosa estrutura de repetição: for.</b>
+            <b>No JavaScript o for é descito desta maneira: <b style="color:red; font-weight: 800;">for(</b>inicio<b
+                style="color:red;">:</b>teste<b style="color:red;">:</b>incremento<b style="color:red;">)</b> <br>
+              <b style="font-weight: 800;">A estrutura for, aceita qualquer tipo de verificação. Exemplo:</b> <br>
+              for (var c=1 ; c<=10; c++) { console.log(c) } </p> <h4>Aula 16</h4>
+                <p>
+                  <b style="color: red ; font-weight: 800;">Exercicios Propostos</b> <br>
+                  <b>Criando uma estrutura simples de repetição</b> <br>
+                  <b><a href="/exercicio3/index.html">Link para acessar o exercicio03</a></b>
+                </p>
         </div>
       </div>
     </div>
@@ -226,20 +336,78 @@
       <div class="card">
         <div class="card-body" id="moduloF">
           <h3>Modulo F</h3>
-          <h4>Aula X</h4>
+          <h4>Aula 17</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Variaiveis Compostas</b> <br>
+            <b>É simplesmente o conceito de Array ou biblioteca do Python ou vetor, facilita muito a o processo de
+              "trabalhar com variaveis compostas."</b> <br>
+            <b>Todo o Processo de declaração das variaveis utiliza indice, tanto para pegar quanto para acrescentar</b>
+            <br>
+            <b>Exemplo: </b> <br>
+            <b style="color: red;">let</b> food = [`frango`, `batata`, `hamburguer`] <br>
+            Utilizando <b>food.push(`Batata-Doce`) <br> food.push(`Ovo-Cozido`) <br></b>
+            Meu Array vai ficar assim: <b>[ 'frango', 'batata', 'hamburguer', 'Batata-Doce', 'Ovo-Cozido' ]</b> <br>
+            <b>Ao imprimir a variavel food[0], ele retornará `frango`. E para imprimir todos os valores ?</b> <br>
+            <b>Utilizado o >>> for (let pos = 0; pos < num.length; pos++){ <br>... console.log(`Sua comida é:
+                ${num[pos]}`)</b> <br>
+            Ele vai imprimir: <br>
+            "Sua comida é: frango <br>
+            Sua comida é: batata <br>
+            Sua comida é: hamburguer <br>
+            Sua comida é: Batata-Doce <br>
+            Sua comida é: Ovo-Cozido"<br>
+          </p>
+          <h4>Aula 18</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Uso de Function e eventos</b> <br>
+            <b>Definição de função: <br>
+            São ações executadas assim que são chamadas ou em decorrência de algum evento. <br>
+          Uma função pode receber parametros e retornar um resultado</b>
+            <b>Exeplos de função: <br></b>
+            function soma(num1 , num2){ <br>
+                res = num1 + num2 <br>
+                return res <br>
+            } 
+            console.log(soma(2, 5))     -> É o paramentro de chamada.
+          </p>
+          <h4>Aula 19</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Passagem de Parametros</b> <br>
+          </p>
+          <h4>Aula 20</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Exercicios Propostos</b> <br>
+          </p>
+          <h4>Aula 20</h4>
+          <p>
+            <b style="color: red ; font-weight: 800;">Próximos Passos</b> <br>
+            <b>Estude sobre funções: <br>
+             1 - Arrow Function <br>
+             2 - callbacks <br></b><br>
+            <b>Estudar sobre POO</b><br>
+            <b>Modularização</b><br>
+            <b>JSO</b><br>
+            <b>RegEX</b><br>
+            <b>AJAX</b><br>
+            <b>Node JS</b><br>
+            <b>VueJS</b><br>
+            <b>Angular</b><br>
+          </p>
         </div>
       </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <script src="/script.js"></script>
-      
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
 </html>

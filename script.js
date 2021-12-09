@@ -15,6 +15,8 @@
 
 //document.querySelector('ul').style.cssText = "background-color: black; color: greenyellow;"
 // document.querySelector('.card-text').style.cssText = "font-family: 'sans-serif'; font-size: 10 px;"
+
+/*
 var $ul1 = window.document.querySelector('#ul')
 $ul1.addEventListener('mouseenter', entrar)
 $ul1.addEventListener('mouseout', saiu)
@@ -47,4 +49,16 @@ function calcular(){
             result.innerHTML = `Sua velocidade está abaixo, PARABÉNS!`
       }
 }
+
+for (var c = 0; c <=100;  c++){
+      console.log(`Estrutura passo a passo do For. Ponto atual: ${c}`)
+}
+function soma(num1 , num2){
+    res = num1 + num2
+    return res
+}
+
+console.log(soma(2, 5))
+
+*/
 
