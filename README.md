@@ -1,5 +1,5 @@
 
-<a href="https://www.cursoemvideo.com/curso/javascript/"><img src="https://pbs.twimg.com/media/D7nNSPLXsAIpkSi.jpg"></a>
+<a href="https://www.cursoemvideo.com/curso/javascript/"><img src="https://pbs.twimg.com/media/D7nNSPLXsAIpkSi.jpg" target="_blank"></a>
 
 
 
